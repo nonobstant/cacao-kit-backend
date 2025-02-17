@@ -1,6 +1,8 @@
 title:
   en: Home
   de: Startseite
+  fr: Accueil
+  nl: Home
 
 icon: 🏠
 
@@ -10,13 +12,21 @@ options:
 tabs:
   content:
     icon: text
-    label: content
+    label:
+      en: Content
+      de: Inhalt
+      fr: Contenu
+      nl: Inhoud
     fields:
       layouts: fields/layouts
 
   meta:
     icon: folder-structure
-    label: Meta
+    label:
+      en: Meta
+      de: Meta
+      fr: Méta
+      nl: Meta
     columns:
       - width: 1/2
         sections:

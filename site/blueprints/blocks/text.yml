@@ -1,0 +1,25 @@
+name: Text
+icon: text
+
+fields:
+  alignment:
+    type: toggles
+    label: Icons & Labels
+    width: 1/1
+    options:
+      - value: left
+        text: Left
+        icon: text-left
+      - value: center
+        text: Center
+        icon: text-center
+      - value: right
+        text: Right
+        icon: text-right
+      - value: justify
+        text: Justify
+        icon: text-justify
+  text:
+    type: textarea
+    size: small
+    width: 1/1

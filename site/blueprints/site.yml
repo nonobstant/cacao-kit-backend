@@ -13,6 +13,8 @@ tabs:
             label:
               en: Notes
               de: Notizen
+              fr: Notes
+              nl: Notities
             layout: cards
             parent: kirby.page("notes")
             create: note
@@ -29,6 +31,8 @@ tabs:
             label:
               en: Pages
               de: Seiten
+              fr: Pages
+              nl: Pagina's
             image:
               query: page.cover.toFile
               cover: true
@@ -38,6 +42,8 @@ tabs:
     label:
       en: Settings
       de: Einstellungen
+      fr: Paramètres
+      nl: Instellingen
     icon: settings
     columns:
       - width: 1/2
@@ -49,6 +55,8 @@ tabs:
                 label:
                   en: Footer
                   de: Fußzeile
+                  fr: Pied de page
+                  nl: Voettekst
                 type: pages
                 image:
                   query: page.cover.toFile

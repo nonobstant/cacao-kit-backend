@@ -1,13 +1,21 @@
 name:
   en: Notes Grid
   de: Notizen-Raster
+  fr: Grille de notes
+  nl: Notities rooster
 icon: grid
 preview: fields
 wysiwyg: true
 fields:
   info:
-    label: Info
+    label:
+      en: Info
+      de: Info
+      fr: Info
+      nl: Info
     type: info
     text:
       en: This block is used to display a grid of notes.
       de: Dieser Block wird verwendet, um ein Grid von Notizen anzuzeigen.
+      fr: Ce bloc est utilisé pour afficher une grille de notes.
+      nl: Dit blok wordt gebruikt om een rooster van notities weer te geven.

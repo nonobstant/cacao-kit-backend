@@ -1,6 +1,8 @@
 label:
   en: Cover
   de: Vorschaubild
+  fr: Image de couverture
+  nl: Omslagafbeelding
 type: files
 query: page.files.template(["image", "blocks/image"])
 uploads:
@@ -10,3 +12,5 @@ translate: false
 help:
   en: A preview image for the page that is displayed in search engines and social networks.
   de: Ein Vorschaubild für die Seite, das in Suchmaschinen und sozialen Netzwerken angezeigt wird.
+  fr: Une image d'aperçu de la page qui s'affiche dans les moteurs de recherche et les réseaux sociaux.
+  nl: Een voorbeeldafbeelding voor de pagina die wordt weergegeven in zoekmachines en sociale netwerken.

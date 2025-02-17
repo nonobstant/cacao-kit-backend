@@ -1,6 +1,8 @@
 title:
   en: Image
   de: Bild
+  fr: Image
+  nl: Afbeelding
 
 accept:
   type: image
@@ -15,6 +17,8 @@ columns:
             label:
               en: Caption
               de: Bildunterschrift
+              fr: Légende
+              nl: Bijschrift
             type: textarea
             size: medium
 
@@ -27,6 +31,8 @@ columns:
             label:
               en: Alternative Text
               de: Alternativtext
+              fr: Texte alternatif
+              nl: Alternatieve tekst
             type: text
           link:
             label: Link

@@ -1,6 +1,8 @@
 name:
   en: Note Header
   de: Notiz-Kopfzeile
+  fr: En-tête de note
+  nl: Notitie header
 icon: pen
 preview: fields
 wysiwyg: true
@@ -9,6 +11,8 @@ fields:
     label:
       en: Date
       de: Datum
+      fr: Date
+      nl: Datum
     type: date
     time: true
     default: now
@@ -16,5 +20,7 @@ fields:
     label:
       en: Author
       de: Autor
+      fr: Auteur
+      nl: Auteur
     type: users
   tags: true

@@ -2,6 +2,8 @@ type: pages
 label:
   en: Pages
   de: Seiten
+  fr: Pages
+  nl: Pagina's
 image:
   query: page.cover.toFile
   cover: true

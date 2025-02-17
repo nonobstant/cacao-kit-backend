@@ -5,15 +5,20 @@ use Kirby\Cms\File;
 use Kirby\Content\Field;
 
 return [
-    // Custom resolves for `block:field`
+    // Define which fields in which blocks should be resolved
+    'files' => [
+        'cover-image' => ['image'],
+        'image' => ['image'],
+    ],
+
+    // Your resolvers
     'resolvers' => [
-        // Resolve permalinks (containing UUIDs) to URLs inside the
-        // field `text` of the `text` block
         'text:text' => function (Field $field, Block $block) {
-            return $field->permalinksToUrls()->value();
+            return $field->kt()->value();
         },
-        // Resolve the team structure server-side to handle image transformations
-        // and deep page links
+        'cover-image:subheading' => function (Field $field, Block $block) {
+            return $field->kt()->value();
+        },
         'team-structure:team' => function (Field $field, Block $block) {
             $structure = $field->toStructure();
 
@@ -34,6 +39,8 @@ return [
             })->values();
         }
     ],
+
+    // Default resolvers for files
     'defaultResolvers' => [
         'files' => fn(File $image) => [
             'url' => $image->url(),

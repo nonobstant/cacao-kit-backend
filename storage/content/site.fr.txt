@@ -6,8 +6,4 @@ Footer: []
 
 ----
 
-Cover: []
-
-----
-
 Description: Bureau d'experts certifiés et agrées en matières immobilières

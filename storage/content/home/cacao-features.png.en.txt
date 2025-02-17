@@ -1,9 +1,0 @@
-Uuid: XSC5tGTcNY8SNRfB
-
-----
-
-Template: blocks/image
-
-----
-
-Caption: 

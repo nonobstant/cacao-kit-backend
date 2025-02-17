@@ -1,8 +1,12 @@
 label:
   en: Description
   de: Beschreibung
+  fr: Description
+  nl: Beschrijving
 type: textarea
 buttons: false
 help:
   en: A short description of the page that is displayed under the title by search engines.
   de: Eine kurze Beschreibung der Seite, die von Suchmaschinen unter dem Titel angezeigt wird.
+  fr: Une brève description de la page qui s'affiche sous le titre dans les moteurs de recherche.
+  nl: Een korte beschrijving van de pagina die onder de titel wordt weergegeven door zoekmachines.

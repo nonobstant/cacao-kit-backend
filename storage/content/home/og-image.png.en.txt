@@ -1,9 +1,0 @@
-Uuid: jXWjcZtT2PZHA8x7
-
-----
-
-Template: blocks/image
-
-----
-
-Caption: 

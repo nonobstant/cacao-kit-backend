@@ -1,0 +1,21 @@
+Caption: 
+
+----
+
+Alt: 
+
+----
+
+Link: 
+
+----
+
+Uuid: PSfPNbxN17iM6g7y
+
+----
+
+Template: blocks/image
+
+----
+
+Focus: 41.4% 37.2%

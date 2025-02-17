@@ -2,6 +2,8 @@ type: files
 label:
   en: Images
   de: Bilder
+  fr: Images
+  nl: Afbeeldingen
 templates:
   - image
   - blocks/image
@@ -9,3 +11,5 @@ sortBy: filename desc
 empty:
   en: No images yet
   de: Noch keine Bilder
+  fr: Pas encore d'images
+  nl: Nog geen afbeeldingen

@@ -1,0 +1,105 @@
+name:
+  en: Cover Image
+  fr: Image de couverture
+  nl: Cover afbeelding
+  de: Titelbild
+icon: image
+preview: image
+
+fields:
+  image:
+    label: 
+      en: Image
+      fr: Image
+      nl: Afbeelding
+      de: Bild
+    type: files
+    multiple: false
+    max: 1
+    layout: cards
+    required: true
+    width: 1/3
+  
+  height:
+    type: select
+    label:
+      en: Height
+      fr: Hauteur
+      nl: Hoogte
+      de: Höhe
+    default: screen
+    width: 1/3
+    options:
+      screen: Full screen
+      large: Large
+      medium: Medium
+      small: Small
+
+  overlay:
+    type: toggle
+    label:
+      en: Dark overlay
+      fr: Superposition sombre
+      nl: Donkere overlay
+      de: Dunkle Überlagerung
+    default: true
+    width: 1/3
+
+  headline:
+    label: 
+      en: Headline
+      fr: Titre
+      nl: Koptekst
+      de: Überschrift
+    type: text
+    width: 2/3
+    
+  headline_size:
+    label:
+      en: Headline Size
+      fr: Taille du titre
+      nl: Koptekst grootte
+      de: Überschriftgröße
+    type: select
+    width: 1/3
+    default: large
+    options:
+      small: Small
+      medium: Medium
+      large: Large
+      xl: Extra Large
+  
+  subheading:
+    label: 
+      en: Subheading
+      fr: Sous-titre
+      nl: Ondertitel
+      de: Unterüberschrift
+    type: textarea
+    size: small
+    buttons: false
+    width: 1/1
+    
+  button:
+    label: 
+      en: Button
+      fr: Bouton
+      nl: Knop
+      de: Button
+    type: structure
+    max: 2
+    fields:
+      text:
+        label: 
+          en: Text
+          fr: Texte
+          nl: Tekst
+          de: Text
+        type: text
+      link:
+        label: 
+          en: Link
+          fr: Lien
+          nl: Link
+          de: Link
+        type: url

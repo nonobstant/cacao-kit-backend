@@ -1,10 +1,16 @@
 label:
   en: Blocks
   de: Blöcke
+  fr: Blocs
+  nl: Blokken
 type: blocks
 fieldsets:
   text:
-    label: Text
+    label:
+      en: Text
+      de: Text
+      fr: Texte
+      nl: Tekst
     type: group
     fieldsets:
       - intro
@@ -15,26 +21,30 @@ fieldsets:
       - line
   media:
     label:
-      de: Medien
       en: Media
+      de: Medien
+      fr: Médias
+      nl: Media
     type: group
     fieldsets:
       - image
       - gallery
       - video
-  # code:
-  #   label: Code
-  #   type: group
-  #   fieldsets:
-  #     - code
-  #     - markdown
   grids:
-    label: Grids
+    label:
+      en: Grids
+      de: Raster
+      fr: Grilles
+      nl: Rasters
     type: group
     fieldsets:
       - notes-grid
   meta:
-    label: Meta
+    label:
+      en: Meta
+      de: Meta
+      fr: Méta
+      nl: Meta
     type: group
     fieldsets:
       - note-header

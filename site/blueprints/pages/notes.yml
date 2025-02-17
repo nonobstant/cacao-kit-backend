@@ -1,6 +1,8 @@
 title:
   en: Notes
   de: Notizen
+  fr: Notes
+  nl: Notities
 
 icon: ⛰️
 
@@ -15,6 +17,8 @@ columns:
         label:
           en: Notes
           de: Notizen
+          fr: Notes
+          nl: Notities
         layout: cards
         create: note
         image:

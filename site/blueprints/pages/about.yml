@@ -1,6 +1,8 @@
 title:
   en: About us
   de: Über uns
+  fr: À propos
+  nl: Over ons
 
 icon: ☎️
 
@@ -16,7 +18,11 @@ options:
 tabs:
   content:
     icon: text
-    label: content
+    label:
+      en: Content
+      de: Inhalt
+      fr: Contenu
+      nl: Inhoud
     fields:
       layouts: fields/layouts
 
@@ -25,6 +31,8 @@ tabs:
     label:
       en: Contact
       de: Kontakt
+      fr: Contact
+      nl: Contact
     columns:
       - width: 1/2
         fields:
@@ -32,17 +40,23 @@ tabs:
             label:
               en: Address
               de: Adresse
+              fr: Adresse
+              nl: Adres
             type: writer
             inline: true
           email:
             label:
               en: Email
               de: E-Mail
+              fr: E-mail
+              nl: E-mail
             type: email
           phone:
             label:
               en: Phone
               de: Telefon
+              fr: Téléphone
+              nl: Telefoon
             type: tel
       - width: 1/2
         fields:
@@ -50,6 +64,8 @@ tabs:
             label:
               en: On the web
               de: Im Netz
+              fr: Sur le web
+              nl: Op het web
             type: structure
             columns:
               platform: true
@@ -58,6 +74,8 @@ tabs:
                 label:
                   en: Platform
                   de: Plattform
+                  fr: Plateforme
+                  nl: Platform
                 type: text
                 width: 1/2
               url:
@@ -67,7 +85,11 @@ tabs:
 
   meta:
     icon: folder-structure
-    label: Meta
+    label:
+      en: Meta
+      de: Meta
+      fr: Méta
+      nl: Meta
     columns:
       - width: 1/2
         sections:

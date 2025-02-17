@@ -1,20 +1,34 @@
 name:
   en: Team
   de: Team
+  fr: Équipe
+  nl: Team
 icon: store
 preview: fields
 wysiwyg: true
 fields:
   team:
-    label: Team
+    label:
+      en: Team
+      de: Team
+      fr: Équipe
+      nl: Team
     type: structure
     fields:
       name:
-        label: Name
+        label:
+          en: Name
+          de: Name
+          fr: Nom
+          nl: Naam
         type: text
         width: 1/2
       image:
-        label: Image
+        label:
+          en: Image
+          de: Bild
+          fr: Image
+          nl: Afbeelding
         type: files
         query: page.files.template(["image", "blocks/image"])
         uploads:
@@ -22,6 +36,10 @@ fields:
         multiple: false
         width: 1/2
       link:
-        label: Links
+        label:
+          en: Links
+          de: Links
+          fr: Liens
+          nl: Links
         type: pages
         multiple: false
