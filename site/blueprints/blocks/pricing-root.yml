@@ -1,0 +1,62 @@
+name:
+  en: Root Question
+  de: Ursprungsfrage
+  fr: Question racine
+  nl: Hoofdvraag
+
+icon: 🏠
+
+fields:
+  title:
+    label:
+      en: Service Title
+      de: Servicetitel
+      fr: Titre du service
+      nl: Service titel
+    type: text
+    required: true
+
+  base_price:
+    label:
+      en: Base Price
+      de: Grundpreis
+      fr: Prix de base
+      nl: Basisprijs
+    type: number
+    required: true
+    min: 0
+    after: "€"
+
+  service_type:
+    label:
+      en: Service Type
+      de: Servicetyp
+      fr: Type de service
+      nl: Service type
+    type: select
+    options:
+      apartment_checkin: 
+        en: Apartment Check-in
+        de: Wohnungsübergabe
+        fr: État des lieux d'entrée d'un appartement
+        nl: Appartement check-in
+      house_checkin:
+        en: House Check-in
+        de: Hausübergabe
+        fr: État des lieux d'entrée d'une maison
+        nl: Huis check-in
+      apartment_checkout:
+        en: Apartment Check-out
+        de: Wohnungsabnahme
+        fr: État des lieux de sortie d'un appartement
+        nl: Appartement check-out
+      house_checkout:
+        en: House Check-out
+        de: Hausabnahme
+        fr: État des lieux de sortie d'une maison
+        nl: Huis check-out
+      valuation:
+        en: Property Valuation
+        de: Immobilienbewertung
+        fr: Expertise en valeur
+        nl: Waardebepaling

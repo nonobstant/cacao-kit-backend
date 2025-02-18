@@ -1,0 +1,76 @@
+name:
+  en: Follow-up Question
+  de: Folgefrage
+  fr: Question suivante
+  nl: Vervolgvraag
+
+icon: ❓
+
+fields:
+  question:
+    label:
+      en: Question
+      de: Frage
+      fr: Question
+      nl: Vraag
+    type: text
+    required: true
+
+  answers:
+    type: structure
+    label:
+      en: Possible Answers
+      de: Mögliche Antworten
+      fr: Réponses possibles
+      nl: Mogelijke antwoorden
+    min: 2
+    max: 6
+    columns:
+      text: true
+      operation: true
+      value: true
+    fields:
+      text:
+        label:
+          en: Answer Text
+          de: Antworttext
+          fr: Texte de réponse
+          nl: Antwoordtekst
+        type: text
+        required: true
+      operation:
+        label:
+          en: Price Operation
+          de: Preisoperation
+          fr: Opération de prix
+          nl: Prijsbewerking
+        type: select
+        options:
+          add: 
+            en: Add (+)
+            de: Addition (+)
+            fr: Addition (+)
+            nl: Optellen (+)
+          subtract:
+            en: Subtract (-)
+            de: Subtraktion (-)
+            fr: Soustraction (-)
+            nl: Aftrekken (-)
+          multiply:
+            en: Multiply (×)
+            de: Multiplikation (×)
+            fr: Multiplication (×)
+            nl: Vermenigvuldigen (×)
+          percentage:
+            en: Add Percentage (+%)
+            de: Prozent addieren (+%)
+            fr: Ajouter pourcentage (+%)
+            nl: Percentage toevoegen (+%)
+      value:
+        label:
+          en: Value
+          de: Wert
+          fr: Valeur
+          nl: Waarde
+        type: number
+        required: true

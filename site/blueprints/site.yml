@@ -27,7 +27,9 @@ tabs:
         sections:
           pages:
             type: pages
-            create: default
+            create: 
+              - default
+              - pricing
             label:
               en: Pages
               de: Seiten

@@ -1,0 +1,85 @@
+title:
+  en: Pricing Calculator
+  de: Preisrechner
+  fr: Calculateur de prix
+  nl: Prijscalculator
+
+icon: 💰
+
+options:
+  changeSlug: false
+  delete: false
+  preview: "{{ page.frontendUrl }}"
+
+tabs:
+  content:
+    icon: text
+    label:
+      en: Content
+      de: Inhalt
+      fr: Contenu
+      nl: Inhoud
+    columns:
+      - width: 2/3
+        sections:
+          content:
+            type: fields
+            fields:
+              intro:
+                label:
+                  en: Introduction Text
+                  de: Einführungstext
+                  fr: Texte d'introduction
+                  nl: Introductietekst
+                type: textarea
+                size: small
+                buttons: false
+                required: true
+
+              calculator:
+                label:
+                  en: Price Calculator
+                  de: Preisrechner
+                  fr: Calculateur de prix
+                  nl: Prijscalculator
+                type: layout
+                layouts:
+                  - "1/1"
+                fieldsets:
+                  - pricing-root
+                  - pricing-question
+
+      - width: 1/3
+        sections:
+          meta:
+            type: fields
+            fields:
+              settings:
+                type: structure
+                label:
+                  en: Calculator Settings
+                  de: Rechnereinstellungen
+                  fr: Paramètres du calculateur
+                  nl: Calculator instellingen
+                fields:
+                  currency:
+                    type: text
+                    default: "€"
+                    width: 1/2
+                  decimal_places:
+                    type: number
+                    default: 0
+                    width: 1/2
+
+  meta:
+    icon: folder-structure
+    label:
+      en: Meta
+      de: Meta
+      fr: Méta
+      nl: Meta
+    columns:
+      - width: 1/2
+        sections:
+          cover: sections/cover
+          description: sections/description

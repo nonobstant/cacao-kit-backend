@@ -1,0 +1,50 @@
+Title: Tarifs
+
+----
+
+Intro: test
+
+----
+
+Calculator: [{"attrs":[],"columns":[{"blocks":[{"content":{"title":"Etat des lieux d'entrée d'un appartement...","base_price":130,"service_type":"apartment_checkin"},"id":"a763ee34-a167-443a-a764-2cb961edf1e2","isHidden":false,"type":"pricing-root"}],"id":"0baa625c-4ba7-4917-b42c-ac9237b536e5","width":"1/1"}],"id":"dc53d0ee-88a6-4f6e-b07c-1aae61faa94d"},{"attrs":[],"columns":[{"blocks":[{"content":{"question":"Combien de chambres avez-vous?","answers":[{"text":"Studio","operation":"add","value":0},{"text":"Une","operation":"add","value":20}]},"id":"76347ac2-923c-49ae-80a7-c910647d1ab6","isHidden":false,"type":"pricing-question"}],"id":"c4f79031-ca52-4bdc-858b-aeb5d69c0469","width":"1/1"}],"id":"83948449-afef-4439-ab8e-9289f0059640"}]
+
+----
+
+Settings:
+
+-
+  currency: €
+  decimal_places: 0.0
+
+----
+
+Cover: []
+
+----
+
+Description: 
+
+----
+
+Pricing-options:
+
+-
+  attrs: []
+  columns:
+    -
+      blocks: []
+      id: acb3d745-8bc0-43c1-bafb-187e87108f7a
+      width: 1/3
+    -
+      blocks: []
+      id: fbb3f3c4-79b9-4314-b8e4-29f81d101adb
+      width: 1/3
+    -
+      blocks: []
+      id: c8dfdf47-6e6a-466e-ac08-b08f87eade5a
+      width: 1/3
+  id: 1176a714-64f8-48d9-9fa0-4773c78edd0b
+
+----
+
+Uuid: IfCbkPTcC3vuXc0V
